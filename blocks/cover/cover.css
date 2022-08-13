@@ -1,0 +1,13 @@
+.cover {
+  box-sizing: border-box;
+  max-width: 1184px;
+  max-height: 740px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/cover__background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}

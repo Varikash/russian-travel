@@ -4,4 +4,7 @@
   font-size: 72px;
   line-height: 76px;
   grid-area: title;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
