@@ -3,7 +3,7 @@
   max-height: 660px;
   height: 100%;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: minmax(min-content,460px) minmax(min-content,484px);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: 
     "title website"

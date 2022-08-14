@@ -1,5 +1,8 @@
 .place__paragraphs {
+  box-sizing: border-box;
   grid-area: paragraphs;
+  align-self: start;
+  justify-self: start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
