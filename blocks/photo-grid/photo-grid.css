@@ -10,3 +10,31 @@
   align-content: center;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    grid-template-rows: repeat(auto-fit, minmax(225px, max-content));
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    max-width: 720px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+    grid-template-rows: repeat(auto-fit, minmax(264px, max-content));
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    max-width: 288px;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 216px));
+    gap: 12px;
+  }
+}
