@@ -7,3 +7,11 @@
   justify-content: flex-end;
   row-gap: 12px;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    max-width: 288px;
+    width: 100%;
+    justify-self: center;
+  }
+}
