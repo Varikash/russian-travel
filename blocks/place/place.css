@@ -32,6 +32,7 @@
   .place {
     max-height: 1042px;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
     grid-template-areas: 
     "title"
     "website"

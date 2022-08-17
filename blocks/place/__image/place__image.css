@@ -26,5 +26,6 @@
   .place__image {
     max-width: 320px;
     max-height: 320px;
+    justify-self: center;
   }
 }
