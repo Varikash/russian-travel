@@ -3,10 +3,10 @@
 @import url(../blocks/page/page.css);
 
 /* Миксы */
-@import url(../blocks/block/_theme/block_theme_dark.css);
-@import url(../blocks/block/_centered/block_centered.css);
 @import url(../blocks/text-decoration/_disabled/text-decoration_dasibled.css);
 /* Конец */
+
+@import url(../blocks/body/body.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -23,7 +23,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_bold/intro__list_bold.css);
+@import url(../blocks/intro/__list/_decoration/intro__list_decoration_bold.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -36,7 +36,7 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
-@import url(../blocks/place/__paragraphs/place__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/overlay/cover__overlay.css);

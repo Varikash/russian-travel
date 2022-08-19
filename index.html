@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="block_theme_dark">
-  <div class="page block_centered">
-    <header class="header block_centered">
+<body class="body">
+  <div class="page">
+    <header class="header">
       <img src="./images/__logo.svg" alt="Логотип сайта" class="header__logo">
       <div class="header__links">
         <a href="#" class="header__lang-link">Ru</a>
@@ -22,13 +22,13 @@
       </div>
     </header>
     <main>
-      <section class="lead block_centered">
+      <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./images/__image.jpg" alt="Пассажир поезда">
         <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
       </section>
-      <section class="intro block_centered">
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
           но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -40,11 +40,11 @@
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
 
         <ul class="intro__list">
-          <li><span class="intro__list_bold">Часовых поясов</span> 11</li>
-          <li><span class="intro__list_bold">Объектов природного наследния ЮНЕСКО</span> 12</li>
-          <li><span class="intro__list_bold">Объектов культурного наследния ЮНЕСКО</span> 16</li>
-          <li><span class="intro__list_bold">Природных заповедников</span> 105</li>
-          <li><span class="intro__list_bold">Аэропортов</span> 241</li>
+          <li><span class="intro__list_decoration_bold">Часовых поясов</span> 11</li>
+          <li><span class="intro__list_decoration_bold">Объектов природного наследния ЮНЕСКО</span> 12</li>
+          <li><span class="intro__list_decoration_bold">Объектов культурного наследния ЮНЕСКО</span> 16</li>
+          <li><span class="intro__list_decoration_bold">Природных заповедников</span> 105</li>
+          <li><span class="intro__list_decoration_bold">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid block_centered" aria-label="Фотографии России">
@@ -61,7 +61,7 @@
         <img src="./images/__item11.jpg" alt="Вид скал" class="photo-grid__item">
         <img src="./images/__item12.jpg" alt="Туман в горах" class="photo-grid__item">
       </section>
-      <section class="places block_centered" aria-label="Описание мест России">
+      <section class="places" aria-label="Описание мест России">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place__image1.jpg" alt="Куршская коса" class="place__image">
@@ -70,13 +70,13 @@
             <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__paragraphs">
-            <p class="place__paragraph paragraph_top">Здесь, посреди лесов и песчаных дюн,
+            <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн,
               вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны
               и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.
             </p>
 
 
-            <p class="place__paragraph paragraph_bottom">На этом Калининградская область не заканчивается.
+            <p class="place__paragraph">На этом Калининградская область не заканчивается.
               Для путешественника и исследователя там же по соседству — самая западная точка России,
               Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
               Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
@@ -92,12 +92,12 @@
               target="_blank">National Georgaphic</a>
           </div>
           <div class="place__paragraphs">
-            <p class="place__paragraph paragraph_top">Почти весь полуостров находится за Полярным кругом.
+            <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом.
               Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
             </p>
 
 
-            <p class="place__paragraph paragraph_bottom">Возможно, вы смотрели Звягинцева и даже слышали историю
+            <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю
               арктического фестиваля в Териберке.
               Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
@@ -116,14 +116,14 @@
               target="_blank">Facebook</a>
           </div>
           <div class="place__paragraphs">
-            <p class="place__paragraph paragraph_top">Алтай — одно из красивейших мест в России.
+            <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
               озёра.
               А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным
               воздухом.</p>
 
 
-            <p class="place__paragraph paragraph_bottom">Климат на Алтае умеренный, поэтому ехать сюда лучше всего
+            <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего
               летом.
               Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают
               орлы,
@@ -140,12 +140,12 @@
             <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <div class="place__paragraphs">
-            <p class="place__paragraph paragraph_top">Всем известен Байкал как крупнейшее озеро
+            <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
               России.</p>
 
 
-            <p class="place__paragraph paragraph_bottom">Конечно, это всё так. Но Байкал ещё идеальное место
+            <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место
               для соревнований по скийорингу.
               Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно
               бóльшую скорость на льду.
@@ -162,7 +162,7 @@
             <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <div class="place__paragraphs">
-            <p class="place__paragraph paragraph_top">Сибирь заканчивается не на Урале, а в Карелии:
+            <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии:
               образующая тайгу сибирская лиственница не растёт западнее Водлозера.
               Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот
               никогда не знали топора.
@@ -175,7 +175,7 @@
           </div>
         </div>
       </section>
-      <section class="cover block_centered">
+      <section class="cover">
         <div class="cover__overlay"></div>
         <h1 class="cover__title"><a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"
             class="cover__link text-decoration_disabled">До Байкала «на собаках»</a></h1>
@@ -185,7 +185,7 @@
 
       </section>
     </main>
-    <footer class="footer block_centered">
+    <footer class="footer">
       <nav>
         <ul class="footer__links">
           <li><a href="https://yandex.ru/maps" class="footer__link text-decoration_disabled" target="_blank">Карты</a>
