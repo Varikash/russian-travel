@@ -1,6 +1,6 @@
 .place__website {
   grid-area: website;
-  align-self: flex-end;
+  align-self: end;
   justify-self: start;
   display: flex;
   flex-direction: column;
