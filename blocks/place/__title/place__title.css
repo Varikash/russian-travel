@@ -14,6 +14,12 @@
   }
 }
 
+@media screen and (max-width: 770px) {
+  .place__title {
+    max-width: 330px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place__title {
     max-width: 288px;

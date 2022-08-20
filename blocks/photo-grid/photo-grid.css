@@ -27,6 +27,7 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
     grid-template-rows: repeat(auto-fit, minmax(264px, max-content));
     gap: 16px;
+    padding: 88px 0;
   }
 }
 
@@ -36,5 +37,6 @@
     grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
     grid-template-rows: repeat(auto-fit, minmax(min-content, 216px));
     gap: 12px;
+    padding: 64px 0;
   }
 }
